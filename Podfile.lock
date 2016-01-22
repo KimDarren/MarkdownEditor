@@ -17,12 +17,16 @@ PODS:
     - GoogleSymbolUtilities (~> 1.0.0)
   - Masonry (0.6.4)
   - MMMarkdown (0.5.1)
+  - Realm (0.97.0):
+    - Realm/Headers (= 0.97.0)
+  - Realm/Headers (0.97.0)
   - SwipeBack (1.1.0)
 
 DEPENDENCIES:
   - Google/Analytics
   - Masonry (= 0.6.4)
   - MMMarkdown (= 0.5.1)
+  - Realm (= 0.97.0)
   - SwipeBack (= 1.1.0)
 
 SPEC CHECKSUMS:
@@ -34,6 +38,7 @@ SPEC CHECKSUMS:
   GoogleUtilities: 8ed9134debe11719097881711464752900668f10
   Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
   MMMarkdown: 06f7989e0350d10a7de50516af6c812402ce554b
+  Realm: b498a6fb9d288b171ff98d0e2d4384c295be8990
   SwipeBack: 45a42c333b7b9657b9f02cf19673339b3a006195
 
 COCOAPODS: 0.39.0

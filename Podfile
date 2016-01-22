@@ -8,5 +8,6 @@ target 'Markdown' do
     pod 'SwipeBack', '1.1.0'
     pod 'MMMarkdown', '0.5.1'
     pod 'Google/Analytics'
+    pod 'Realm', '0.97.0'
 end
 
