@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		955BA7F31C51BA1B00ACD71D /* MDIntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 955BA7F21C51BA1B00ACD71D /* MDIntroViewController.m */; };
 		9568F2D41C50D69300C17E56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9568F2CE1C50D69300C17E56 /* Assets.xcassets */; };
 		9568F2D51C50D69300C17E56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9568F2CF1C50D69300C17E56 /* LaunchScreen.storyboard */; };
 		9568F2D61C50D69300C17E56 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9568F2D11C50D69300C17E56 /* Info.plist */; };
@@ -18,6 +19,8 @@
 /* Begin PBXFileReference section */
 		0BCE4DD691D59F20D6A6940B /* Pods-Markdown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Markdown.release.xcconfig"; path = "Pods/Target Support Files/Pods-Markdown/Pods-Markdown.release.xcconfig"; sourceTree = "<group>"; };
 		478E4E2A87B45A89CA6B6F45 /* libPods-Markdown.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Markdown.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		955BA7F11C51BA1B00ACD71D /* MDIntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDIntroViewController.h; sourceTree = "<group>"; };
+		955BA7F21C51BA1B00ACD71D /* MDIntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDIntroViewController.m; sourceTree = "<group>"; };
 		9568F2B11C50D64C00C17E56 /* Markdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Markdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9568F2CE1C50D69300C17E56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9568F2D01C50D69300C17E56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -72,6 +75,8 @@
 		955BA7F01C51B5FA00ACD71D /* View controller */ = {
 			isa = PBXGroup;
 			children = (
+				955BA7F11C51BA1B00ACD71D /* MDIntroViewController.h */,
+				955BA7F21C51BA1B00ACD71D /* MDIntroViewController.m */,
 			);
 			path = "View controller";
 			sourceTree = "<group>";
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				955BA7F31C51BA1B00ACD71D /* MDIntroViewController.m in Sources */,
 				9568F2DA1C50D6C300C17E56 /* AppDelegate.m in Sources */,
 				9568F2D71C50D69300C17E56 /* main.m in Sources */,
 			);
@@ -353,6 +359,7 @@
 			baseConfigurationReference = DF3712ADE8DE68058E9E0DE3 /* Pods-Markdown.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/Markdown/supporting-files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -366,6 +373,7 @@
 			baseConfigurationReference = 0BCE4DD691D59F20D6A6940B /* Pods-Markdown.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/Markdown/supporting-files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
